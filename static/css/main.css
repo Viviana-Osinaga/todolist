@@ -3,3 +3,9 @@ body {
     box-sizing: border-box;
     background-color: pink;
 }
+table {
+    background-color: rgb(255 255 255);
+    border-color: rgb(0 0 0);
+    border: 2px solid;
+    text-align: center;
+}
