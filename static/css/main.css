@@ -18,17 +18,20 @@ h1 {
     padding: 2rem;
     margin: 1rem;
     align-self: center;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(1px 1px rgb(0 0 0));
 }
 
 table {
     background-color: rgb(255, 255, 255, 0.2);
-    /* border: 1px solid rgb(0 0 0); */
     text-align: center;
     width: fit-content;
     margin: 1rem;
     padding: 1rem;
     filter: drop-shadow(2px 2px 6px);
     border-radius: 8px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(1px 1px rgb(0 0 0));
 }
 th, td {
 
@@ -39,9 +42,12 @@ th, td {
 a {
     text-decoration: none;
     padding: 0.5rem;
-    color:rgb(164, 164, 247);
-    text-shadow: 1px 1px rgb(0 0 0);
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
 
+a:hover {
+    filter: drop-shadow(2px 2px 7px rgb(0 0 0));
 }
 
 form {
@@ -72,7 +78,7 @@ input {
 #submit {
     width: 6rem;
     background-color: rgb(164, 164, 247);
-    color: rgb(0 0 0);
+    color: rgb(255, 255, 255);
 }
 #submit:hover {
     filter: drop-shadow(0 0 3px);
